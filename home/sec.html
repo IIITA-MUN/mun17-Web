@@ -24,9 +24,27 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
+        <script>
+            myBlurFunction = function(state) {
+        /* state can be 1 or 0 */
+                var containerElement = document.getElementById('main_container');
+                var overlayEle = document.getElementById('overlay');
+
+                if (state) {
+                    overlayEle.style.display = 'block';
+                    containerElement.setAttribute('class', 'blur');
+                } 
+                else {
+                    overlayEle.style.display = 'none';
+                    containerElement.setAttribute('class', null);
+                }
+            };
+
+        </script>
+
     </head>
 
-    <body>
+    <body style="background-image: url(assets/img/backgrounds/bg.png)">
     
         <!-- Loader -->
         <div class="loader">
@@ -50,7 +68,7 @@
                         <li><a class="scroll-link" href="#top-content" style="margin-top: 3px">Top</a></li>
                         <li><a  href="./home.html" style="margin-top: 3px">Home</a></li>
                         <li><a  href="./mun16.html" style="margin-top: 3px">MUN'16</a></li>                       
-                        <li><a class="scroll-link" href="#blog" style="margin-top: 3px">Blog</a></li>
+                        <li><a class="scroll-link" href="#sec" style="margin-top: 3px">Blog</a></li>
                         <li><a class="scroll-link" href="#footer" style="margin-top: 3px">Contact</a></li>
                     </ul>
                     <div class="navbar-text navbar-right">
@@ -87,9 +105,9 @@
             </div>
             
         </div>
-        
+      
         <!-- Services -->
-        <div class="services-container section-container" id="sec">
+        <div class="services-container section-container" id="sec" name="sec">
             <div class="container">
                 <div class="row">
                     <div style="text-align: center" class="col-sm-12 services section-description wow fadeIn">
@@ -110,8 +128,18 @@
                            
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>    
-                            <h3 class="pop-up-link">Contact Gagan </h3>
+                            </p> 
+                            <div id="overlay">
+                                <div id="popup">
+                                    Popup text
+                                    <a href="javascript:myBlurFunction(0);">hide</a>
+                                </div>    
+                            </div>    
+                            <div id="main_container">  
+                                <a href="javascript:myBlurFunction(1);">  
+                                    <h3 class="pop-up-link">Contact Gagan </h3>
+                                </a>
+                            </div>
                          </div>    
 
                     </div>    
@@ -126,12 +154,14 @@
 
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="margin-left: -11px">
-                            <h3 style="font-family:fantasy"><b>Aayushi Asthana</b> -  USG Administration</h3> 
+                            <h3 style="font-family:fantasy"><b>Ayushi Asthana</b> -  USG Administration</h3> 
                            
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                             </p>    
-                            <h3 class="pop-up-link">Contact Aayushi </h3>
+                            <a href="javascript:myBlurFunction(1);">   
+                                <h3 class="pop-up-link">Contact Ayushi </h3>
+                            </a>
                          </div>    
 
                     </div>

@@ -666,7 +666,7 @@ footer h3 {
 	width: 1111px;
 	height : 326px ;
 	border: 5px #000000 ;
-	box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	background-color: white;
 }
 .info-card:hover {
@@ -675,8 +675,37 @@ footer h3 {
 
 .pop-up-link {
 	font-family: fantasy;
-	color: ;
+	color: #55acee;
 }
 
-
+.blur   {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+}
+#overlay    {
+    position: fixed;
+    display: none;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(255,255,255,.8);
+    z-index: 999;
+}
+#popup {
+    position: absolute;
+    width: 400px;
+    font-family: ;
+    height: 200px;
+    background: rgb(255,255,255);
+    border: 5px solid rgb(90,90,90);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
 
