@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="assets/css/form-elements.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/media-queries.css">
-
+        <link rel="stylesheet" href="assets/css/modals.css" type="text/css">
 
         <link rel="shortcut icon" href="assets/ico/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
@@ -117,11 +117,23 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                             </p> 
                               
-                            <div>  
-                                <a href="#">  
-                                    <h3 class="pop-up-link">Contact Gagan </h3>
-                                </a>
-                            </div>
+                             
+                            <a href="#myModal" id="myBtn"> 
+                                <h3 class="pop-up-link">Contact Gagan </h3>
+                            </a>
+                            <!--Modal-->
+                            <div id="myModal" class="modal">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2>info</h2>
+                                        <span class="close"> &times; </span>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>Test1</h4>
+                                    </div>    
+                                </div>    
+                            </div>    
+
                          </div>    
 
                     </div>    
@@ -141,9 +153,10 @@
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                             </p>    
-                            <a href="#">   
+                            <a href="#" >   
                                 <h3 class="pop-up-link">Contact Ayushi </h3>
                             </a>
+
                          </div>    
 
                     </div>
@@ -156,7 +169,7 @@
             </div>
         </div>
 
-                <!-- Javascript -->
+        <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.backstretch.min.js"></script>
@@ -164,7 +177,7 @@
         <script src="assets/js/retina-1.1.0.min.js"></script>
         <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/scripts.js"></script>
-        
+        <script src="assets/js/modals.js"></script>
         
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
