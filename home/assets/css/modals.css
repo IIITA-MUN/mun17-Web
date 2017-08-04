@@ -50,7 +50,7 @@
 }
 .modal-header {
     padding: 2px 16px;
-    background-color: #55acee;
+    background-color: #444444;
     color: white;
 }
 .modal-body {
@@ -59,6 +59,6 @@
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #444444;
     color: white;
 }
