@@ -8,7 +8,7 @@ var span = document.getElementsByClassName("close")[0];
 
 var sec = document.getElementById("sec");
 
-var close = document.getElementById("closeBtn"); 
+var close = document.getElementById("closeBtn");
 
 btn.onclick = function() {
     modal.style.display = "block";
@@ -22,7 +22,7 @@ span.onclick = function() {
 
 close.onclick = function() {
 	modal.style.display = "none";
-    sec.style.filter = "blur(0px)";
+  sec.style.filter = "blur(0px)";
 }
 
 window.onclick = function(event) {
@@ -55,7 +55,7 @@ span1.onclick = function() {
     sec1.style.filter = "blur(0px)";
 }
 
-close.onclick = function() {
+close1.onclick = function() {
 	modal1.style.display = "none";
 	sec1.style.filter = "blur(0px)";
 }
@@ -67,5 +67,3 @@ window.onclick = function(event) {
 
     }
 }
-
-

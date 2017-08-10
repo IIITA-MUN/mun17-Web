@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
 
 
     /*---------------------------------------------*
-     * Counter 
+     * Counter
      ---------------------------------------------*/
 
 //    $('.statistic-counter').counterUp({
@@ -77,7 +77,7 @@ jQuery(document).ready(function ($) {
        autoplayHoverPause: true
 
     });
-	
+
     $('.main_blogs').owlCarousel({
         responsiveClass: true,
         autoplay: false,
@@ -92,7 +92,7 @@ jQuery(document).ready(function ($) {
        autoplayHoverPause: true
 
     });
-	
+
     $('.main_features_content').owlCarousel({
         responsiveClass: true,
         autoplay: false,
@@ -108,9 +108,9 @@ jQuery(document).ready(function ($) {
 
     });
 
-    
 
-	
+
+
 //	$('.chart').easyPieChart({
 //		animate: 2000,
 //            scaleColor: false,
@@ -123,7 +123,7 @@ jQuery(document).ready(function ($) {
 //                $(this.el).find('.percent').text(Math.round(percent));
 //            }
 //	});
-	
+
 
 // main-menu-scroll
 
@@ -131,13 +131,13 @@ jQuery(document).ready(function ($) {
 	  var top = jQuery(document).scrollTop();
 		var height = 300;
 	  //alert(batas);
-	  
+
 	  if (top > height) {
 		jQuery('.navbar-fixed-top').addClass('menu-scroll');
 	  } else {
 	   jQuery('.navbar-fixed-top').removeClass('menu-scroll');
 	  }
-	});	
+	});
 
 
     /*---------------------------------------------*
@@ -188,8 +188,8 @@ jQuery(document).ready(function ($) {
 
 
 
-	
-	
+
+
 // scroll Up
 
     $(window).scroll(function(){
@@ -202,7 +202,7 @@ jQuery(document).ready(function ($) {
     $('.scrollup').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
-    });	
+    });
 
     //End
 });
