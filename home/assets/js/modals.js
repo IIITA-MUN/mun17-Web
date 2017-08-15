@@ -67,3 +67,340 @@ window.onclick = function(event) {
 
     }
 }
+
+// Modal-2 : ManasiMohandaas
+
+var modal2 = document.getElementById('myModal2');
+
+var btn2 = document.getElementById("myBtn2");
+
+var span2 = document.getElementsByClassName("close")[0];
+
+var sec2 = document.getElementById("sec");
+
+var close2 = document.getElementById("closeBtn2");
+
+btn2.onclick = function() {
+    modal2.style.display = "block";
+    sec2.style.filter = "blur(2px)";
+}
+
+span2.onclick = function() {
+    modal2.style.display = "none";
+    sec2.style.filter = "blur(0px)";
+}
+
+close2.onclick = function() {
+	modal2.style.display = "none";
+	sec2.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+        sec2.style.filter = "blur(0px)";
+
+    }
+}
+
+// Modal-3 : MantekSingh
+
+var modal3 = document.getElementById('myModal3');
+
+var btn3 = document.getElementById("myBtn3");
+
+var span3 = document.getElementsByClassName("close")[0];
+
+var sec3 = document.getElementById("sec");
+
+var close3 = document.getElementById("closeBtn3");
+
+btn3.onclick = function() {
+    modal3.style.display = "block";
+    sec3.style.filter = "blur(2px)";
+}
+
+span3.onclick = function() {
+    modal3.style.display = "none";
+    sec3.style.filter = "blur(0px)";
+}
+
+close3.onclick = function() {
+	modal3.style.display = "none";
+	sec3.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+        sec3.style.filter = "blur(0px)";
+
+    }
+}
+// Modal-4 : Bhanu
+var modal4 = document.getElementById('myModal4');
+
+var btn4 = document.getElementById("myBtn4");
+
+var span4 = document.getElementsByClassName("close")[0];
+
+var sec4 = document.getElementById("sec");
+
+var close4 = document.getElementById("closeBtn4");
+
+btn4.onclick = function() {
+    modal4.style.display = "block";
+    sec4.style.filter = "blur(2px)";
+}
+
+span4.onclick = function() {
+    modal4.style.display = "none";
+    sec4.style.filter = "blur(0px)";
+}
+
+close4.onclick = function() {
+	modal4.style.display = "none";
+	sec4.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+        sec4.style.filter = "blur(0px)";
+
+    }
+}
+// Modal-5 : Maanas
+var modal5 = document.getElementById('myModal5');
+
+var btn5 = document.getElementById("myBtn5");
+
+var span5 = document.getElementsByClassName("close")[0];
+
+var sec5 = document.getElementById("sec");
+
+var close5 = document.getElementById("closeBtn5");
+
+btn5.onclick = function() {
+    modal5.style.display = "block";
+    sec5.style.filter = "blur(2px)";
+}
+
+span5.onclick = function() {
+    modal5.style.display = "none";
+    sec5.style.filter = "blur(0px)";
+}
+
+close5.onclick = function() {
+	modal5.style.display = "none";
+	sec5.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+        sec5.style.filter = "blur(0px)";
+
+    }
+}
+//Modal-6: Karthik
+
+var modal6 = document.getElementById('myModal6');
+
+var btn6 = document.getElementById("myBtn6");
+
+var span6 = document.getElementsByClassName("close")[0];
+
+var sec6 = document.getElementById("sec");
+
+var close6 = document.getElementById("closeBtn6");
+
+btn6.onclick = function() {
+    modal6.style.display = "block";
+    sec6.style.filter = "blur(2px)";
+}
+
+span6.onclick = function() {
+    modal6.style.display = "none";
+    sec6.style.filter = "blur(0px)";
+}
+
+close6.onclick = function() {
+	modal6.style.display = "none";
+	sec6.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+        sec6.style.filter = "blur(0px)";
+
+    }
+}
+
+//Modal-7: Rishi
+var modal7 = document.getElementById('myModal7');
+
+var btn7 = document.getElementById("myBtn7");
+
+var span7 = document.getElementsByClassName("close")[0];
+
+var sec7 = document.getElementById("sec");
+
+var close7 = document.getElementById("closeBtn7");
+
+btn7.onclick = function() {
+    modal7.style.display = "block";
+    sec7.style.filter = "blur(2px)";
+}
+
+span7.onclick = function() {
+    modal7.style.display = "none";
+    sec7.style.filter = "blur(0px)";
+}
+
+close7.onclick = function() {
+	modal7.style.display = "none";
+	sec7.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal7) {
+        modal7.style.display = "none";
+        sec7.style.filter = "blur(0px)";
+
+    }
+}
+
+//Modal-8: Gali
+var modal8 = document.getElementById('myModal8');
+
+var btn8 = document.getElementById("myBtn8");
+
+var span8 = document.getElementsByClassName("close")[0];
+
+var sec8 = document.getElementById("sec");
+
+var close8 = document.getElementById("closeBtn8");
+
+btn8.onclick = function() {
+    modal8.style.display = "block";
+    sec8.style.filter = "blur(2px)";
+}
+
+span8.onclick = function() {
+    modal8.style.display = "none";
+    sec8.style.filter = "blur(0px)";
+}
+
+close8.onclick = function() {
+	modal8.style.display = "none";
+	sec8.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal8) {
+        modal8.style.display = "none";
+        sec8.style.filter = "blur(0px)";
+
+    }
+}
+// Modal-9: Aditi
+var modal9 = document.getElementById('myModal9');
+
+var btn9 = document.getElementById("myBtn9");
+
+var span9 = document.getElementsByClassName("close")[0];
+
+var sec9 = document.getElementById("sec");
+
+var close9 = document.getElementById("closeBtn9");
+
+btn9.onclick = function() {
+    modal9.style.display = "block";
+    sec9.style.filter = "blur(2px)";
+}
+
+span9.onclick = function() {
+    modal9.style.display = "none";
+    sec9.style.filter = "blur(0px)";
+}
+
+close9.onclick = function() {
+	modal9.style.display = "none";
+	sec9.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal9) {
+        modal9.style.display = "none";
+        sec9.style.filter = "blur(0px)";
+
+    }
+}
+// Modal-10: Ravi
+var modal10 = document.getElementById('myModal10');
+
+var btn10 = document.getElementById("myBtn10");
+
+var span10 = document.getElementsByClassName("close")[0];
+
+var sec10 = document.getElementById("sec");
+
+var close10 = document.getElementById("closeBtn10");
+
+btn10.onclick = function() {
+    modal10.style.display = "block";
+    sec10.style.filter = "blur(2px)";
+}
+
+span10.onclick = function() {
+    modal10.style.display = "none";
+    sec10.style.filter = "blur(0px)";
+}
+
+close10.onclick = function() {
+	modal10.style.display = "none";
+	sec10.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal10) {
+        modal10.style.display = "none";
+        sec10.style.filter = "blur(0px)";
+
+    }
+}
+// Modal-11 : Sashank
+var modal11 = document.getElementById('myModal11');
+
+var btn11 = document.getElementById("myBtn11");
+
+var span11 = document.getElementsByClassName("close")[0];
+
+var sec11 = document.getElementById("sec");
+
+var close11 = document.getElementById("closeBtn11");
+
+btn11.onclick = function() {
+    modal11.style.display = "block";
+    sec11.style.filter = "blur(2px)";
+}
+
+span11.onclick = function() {
+    modal11.style.display = "none";
+    sec11.style.filter = "blur(0px)";
+}
+
+close11.onclick = function() {
+	modal11.style.display = "none";
+	sec11.style.filter = "blur(0px)";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal11) {
+        modal11.style.display = "none";
+        sec11.style.filter = "blur(0px)";
+
+    }
+}
