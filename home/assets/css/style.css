@@ -682,3 +682,28 @@ footer h3 {
   background-color: #444444;
 
 }
+
+.spl-btn {
+	display: inline-block;
+	height: 50px;
+	margin: 0 5px;
+	padding: 16px 40px 0 40px;
+	background: #444444;
+	/*background: #ff8a38;*/ /* Old browsers */
+	/*background: -moz-linear-gradient(top,  #ffb24b 0%, #ff8a38 100%);*/ /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#ff8a38));*/ /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%);*/ /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%);*/ /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top,  #ffb24b 0%,#ff8a38 100%);*/ /* IE10+ */
+	/*background: linear-gradient(to bottom,  #ffb24b 0%,#ff8a38 100%);*/ /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#ff8a38',GradientType=0 );*/ /* IE6-9 */
+
+	border: 0;
+
+	font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    -moz-border-radius: 40px; -webkit-border-radius: 40px; border-radius: 40px;
+}
