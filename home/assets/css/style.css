@@ -708,3 +708,22 @@ footer h3 {
     text-transform: uppercase;
     -moz-border-radius: 40px; -webkit-border-radius: 40px; border-radius: 40px;
 }
+/* Apply */
+.styling {
+	opacity: 1;
+}
+.styling:hover{
+	opacity: .3;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
