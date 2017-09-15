@@ -148,7 +148,7 @@ input[type="color"],
 h1,
 h2,
 h3 {
-    font-family: '';
+    font-family: 'Monospace';
     font-weight: 300;
     margin: 0;
 }
